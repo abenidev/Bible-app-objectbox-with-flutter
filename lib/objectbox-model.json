@@ -1,0 +1,101 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6528093097798152915",
+      "lastPropertyId": "6:4097196721510118874",
+      "name": "Book",
+      "properties": [
+        {
+          "id": "1:7797547188270453532",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4348885662050839686",
+          "name": "bookId",
+          "type": 6
+        },
+        {
+          "id": "3:1648413854125410039",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:1148719332595791648",
+          "name": "chaptersLength",
+          "type": 6
+        },
+        {
+          "id": "5:4298449904072598069",
+          "name": "testment",
+          "type": 9
+        },
+        {
+          "id": "6:4097196721510118874",
+          "name": "genre",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:9055597903826203855",
+      "lastPropertyId": "7:3152057269241828161",
+      "name": "Verse",
+      "properties": [
+        {
+          "id": "1:6518396397769891917",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1519107910351608324",
+          "name": "verseId",
+          "type": 6
+        },
+        {
+          "id": "3:4587857429923547508",
+          "name": "bookId",
+          "type": 6
+        },
+        {
+          "id": "4:7882919886985081041",
+          "name": "chapterNumber",
+          "type": 6
+        },
+        {
+          "id": "5:6622256031319675364",
+          "name": "verseNumber",
+          "type": 6
+        },
+        {
+          "id": "6:7891604420768209442",
+          "name": "verseText",
+          "type": 9
+        },
+        {
+          "id": "7:3152057269241828161",
+          "name": "bibleTranslation",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:9055597903826203855",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
